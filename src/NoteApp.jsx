@@ -37,7 +37,6 @@ class NoteApp extends React.Component {
   }
 
   render() {
-    console.log(this.state.Notes == true);
     return (
       <div className="note-app__body">
         <NoteInput addNote={this.onAddNoteHandler} />

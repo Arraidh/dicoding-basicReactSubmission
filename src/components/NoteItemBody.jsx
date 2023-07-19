@@ -2,7 +2,6 @@ import React from "react";
 import { showFormattedDate } from "../utils";
 
 function NoteItemBody(note) {
-  // console.log(note);
   return (
     <div className="note-item__content">
       <h2 className="note-item__title">{note.title}</h2>
